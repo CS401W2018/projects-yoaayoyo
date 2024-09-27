@@ -1,0 +1,23 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#first{
+    color: blue;
+}
+
+.bolder {
+    font-weight: 600;
+}
+
+.green{
+    color: green;
+}
+
+.bigger {
+    font-size: larger;
+}
+
+main  {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
