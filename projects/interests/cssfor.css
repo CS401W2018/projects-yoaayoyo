@@ -1,0 +1,16 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    background-color: rgb(225, 175, 104);
+}
+.emp{
+    color: rgb(7, 136, 129);
+}
+
+#de-emp{
+    color: rgb(60, 82, 103);
+}
+
+.bolder{
+    font-weight: bold;
+}
