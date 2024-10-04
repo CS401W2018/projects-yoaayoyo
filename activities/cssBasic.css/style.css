@@ -1,0 +1,16 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+color: rgb(126, 86, 29);
+}
+header{
+    background-image: url(yooo.jpg);
+}
+
+/*for adjusting the position of the image, "background-position: " can be used
+just pass" top right or top left, and so on.*/
+/*or if the image is repeating, then "background-repeat: no repeat" can be used
+
+
+.current{
+    color: antiquewhite;
+}
