@@ -1,0 +1,28 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+    color: rgb(255, 1, 39);
+    background: url('pic1.jpeg');
+}
+
+main ul li{
+    list-style-image: url(OIP.jpg);
+}
+
+nav ul li{
+    list-style: none; 
+    display: inline;
+}
+
+.current{
+    color: rgb(29, 45, 59);
+}
+
+main.yo1{
+    background-image: url(yo1.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.yo{
+    font-weight: bolder;
+}
