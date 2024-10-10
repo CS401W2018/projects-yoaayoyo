@@ -1,0 +1,35 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header{
+    background-color: aqua;
+    width: 200px;
+    margin: 50px auto;
+    text-align: center;  
+    padding: 50px;
+}
+
+h1{
+    margin-bottom: 0;
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+}
+
+
+
+nav{
+    background-color: rgb(94, 19, 19);
+    height: 200px;
+    margin: 20px 30px;
+}
+
+/* use margin left and right to make the box in center.
+or just using maring: int/px auto to adjust it.
+/*text align only adjust the content inside the box.
+/* padding 和 margin很像 但是是被運用在box 裡面的內容.
+
+/* figcaption is used inside the html 而不是在CSS裡面，其作用是可以在照片底下備註一串文字
+/*figure tage 可以讓照片的周圍的文字變成一個在上一個在下.
+/* 如果想要讓所有內容都靠中對齊 那麼可以用一個 div tag 包裹住我想要的內容 並且加上一個id tag, 並在id tag其中給一個width 900 或是 800這將會是整個內容的寬度. 並且給一個margin 0 auto; 這樣就會靠中對上了
