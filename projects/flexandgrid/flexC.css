@@ -1,0 +1,53 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header{
+    background-color: aqua;
+}
+
+header h1{
+    margin: 0px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: aquamarine;
+  }
+
+nav a {
+    display: block;
+    
+}
+
+.container{
+    display: flex;
+}
+
+.container aside{
+    width: 200px;
+}
+
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap:5px;
+}
+
+.card{
+    border: 1px solid black;
+}
+
+.card-container .card img{
+    width:150px ;
+}
+
+.footer-container{
+    display: grid;
+    grid-template-columns:auto auto auto auto auto;
+}
+
+footer a {
+    display: block;
+}
