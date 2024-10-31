@@ -1,0 +1,28 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.class{
+    margin: auto;
+    border: thin solid black;
+    border-spacing: 0px;
+    border-collapse: collapse;
+}
+
+.class td, .class th{
+    border: thin solid black;
+    padding: 5px;
+}
+.class thead{
+    background-color: aqua;
+}
+
+.class tbody tr:nth-child(odd){
+    background-color: lightgray;
+    /* tr:nth-child 可以讓我們直接選擇我們表個中的哪一行 括號裡面直接填入數字
+    或者可以直接打上even或是odd來讓奇數和偶數行列改變顏色或是他們的性質 */
+}
+
+.class tfoot{
+    background-color: aqua;
+}
