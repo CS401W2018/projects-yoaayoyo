@@ -40,6 +40,12 @@ table tbody tr:nth-child(even){
     background-color: red;
 }
 
+table caption {
+    display: table-caption;
+    text-align: center;
+    background-color: pink
+  }
+
 /* SIDEBAR */
 
 .sidebar{
