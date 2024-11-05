@@ -1,0 +1,54 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav{
+    background-color: aqua;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+header{
+    background-color: bisque;
+}
+
+
+
+
+/* TABLE */
+
+
+.table{
+    border: thick solid pink;
+    
+}
+
+table th, td{
+    border: thick solid rgb(209, 22, 103);
+    border-collapse: collapse;
+}
+
+table th{
+    background-color: aquamarine;
+}
+
+table tfoot{
+    background-color: antiquewhite;
+}
+
+table tbody tr:nth-child(even){
+    background-color: red;
+}
+
+/* SIDEBAR */
+
+.sidebar{
+  border: thin solid black;
+  width: 55%;
+  position: fixed;
+  right: 0;
+}
+
+aside p{
+    font-family: 'Franklin Gothic Medium';
+}
