@@ -1,0 +1,26 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+.form-row{
+    display: flex;
+    gap: 10px;
+    margin: 10px;
+}
+
+.form-row label{
+    width: 75px;
+}
+
+legend{
+    background-color: aqua;
+}
+
+input{
+    background-color: aquamarine;
+    padding: 5px;
+
+}
+
