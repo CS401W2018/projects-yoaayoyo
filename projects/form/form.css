@@ -1,0 +1,48 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+.form-row{
+    display: flex;
+    gap: 10px;
+    margin: 10px;
+}
+
+
+.form-row label{
+    width: 75px;
+}
+
+legend{
+    background-color: aqua;
+}
+
+input{
+    background-color: aquamarine;
+    padding: 5px;
+
+}
+
+fieldset{
+    border: thick solid red;
+}
+
+textarea{
+    background-color: pink;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+    .form-row{
+        display: grid;
+    }
+
+    .submitB{
+        width: 100%;
+        padding: 20px 0px;
+        margin: 15px 0px;
+    }
+}
