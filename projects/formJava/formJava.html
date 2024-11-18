@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web design</title>
+    <link rel="stylesheet" href="form.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <header>
+    <h1>From</h1>
+    </header>
+    <main>
+        <div id="message"></div>
+        <form action="processing.html" method="post" id="myForm">
+            
+            <!-- Personal Information and log in -->
+            <fieldset>
+                <legend>Welcome</legend>
+            <div class="form-row">
+                <label for="firstname">First Name:</label>
+                <input type="text" name="=first" id="firstname" placeholder="First Name" > 
+            </div>
+
+            <div class="form-row">
+                <label for="lastname">Last Name:</label>
+                <input type=" text" name="last" id="lastname" placeholder="Last Name"><br>
+            </div>
+
+            <div class="form-row">
+                <label for="Password">password</label>
+                <input type="text" name="pass" placeholder="Password"><br>
+            </div>
+
+            <div>
+                <input type="checkbox" name="remember" checked> remember me<br>
+            </div>
+            </fieldset>
+
+
+            <!-- Radio 按鈕 -->
+            <div class="form-row">
+        
+                <label for="classname">Class:</label>
+                <div>
+                <input type="radio" name="class"> freshman <br>
+                </div>
+                <div>
+                <input type="radio" name="class"> Sophmore <br>
+                </div>
+                <div>
+                <input type="radio" name="class"> Juinor <br>
+                </div>
+                <div>
+                <input type="radio" name="class"> Senior <br>
+                </div>
+            </div>
+
+            <!-- Comment area -->
+            <div class="form-row">
+            <label for="comment">comment:</label> 
+            <textarea name="comment"></textarea><br>
+            </div>
+
+            <!-- Select -->
+             <br>
+            <div class="form-row">
+                <label for="select">Slect Country :</label>
+                <select name="state" >
+                <option value="blank"></option>
+                <option value="HI">Hawaii</option>
+                <option value="UT">Uta</option>
+                </select> 
+            </div>
+
+            
+            <div class="form-row">
+                <label for="email">Email:</label>
+                <input type="email" name="email" placeholder="Email">
+            </div>
+            <br>
+
+            <div class="form-row">
+                <label for="date">Date:</label>
+                <input type="date" name="date">
+            </div>
+
+            <div class="form-row">
+                <label for="phone">Phone Number:</label>
+                <input type="tel" name="phone" placeholder="Phone">
+            </div>
+
+             </div>
+            <input type="submit" class="submitB"> <br>
+            </div>
+
+
+        </form>
+    </main>    
+    <br>
+    <footer>
+        &copy;yooo
+    </footer>
+
+    <script src="form2.js"></script>
+
+</html>
