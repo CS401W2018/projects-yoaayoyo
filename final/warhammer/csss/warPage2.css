@@ -1,0 +1,57 @@
+body{
+        background-color: rgb(153, 135, 135);
+}
+
+header{
+    font-size: 30px;
+    background-color: rgb(59, 68, 75);
+    color: aliceblue;
+    display: flex;
+    gap: 20px;
+}
+
+
+img{
+    width: 120px;
+    height: 120px;
+}
+
+
+/* Table */
+.table{
+        margin: auto;
+        border: thin solid black;
+        border-spacing: 0px;
+        width: 80%;
+    
+        
+}
+
+.table tr{
+    height: 50px;
+}
+
+.table td, .table th{
+    border: thin solid black;
+    padding: 5px;
+}
+
+
+.pic {
+    display: flex;            /* 使用 Flexbox 排版 */
+    flex-direction: column;   /* 垂直排列 */
+    align-items: center;      /* 水平置中 */
+    text-align: center;       /* 讓 figcaption 的文字置中 */
+}
+
+.pic img {
+    width: 80%;               /* 圖片大小調整 */
+    height: auto;             /* 維持圖片比例 */
+    margin-bottom: 10px;      /* 每張圖片與文字間距 */
+}
+
+figcaption {
+    font-size: 35px;          /* 調整文字大小 */
+    color: #555;              /* 可選：讓文字顏色稍微柔和 */
+    margin-bottom: 100px;      /* 文字與下一圖片的間距 */
+}
