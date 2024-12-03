@@ -16,24 +16,35 @@ img{
     height: 120px;
 }
 
+/* Word */
+
+.word{
+    color: white;
+}
+
+
+
 
 /* Table */
-.table{
+.table {
         margin: auto;
         border: thin solid black;
         border-spacing: 0px;
         width: 80%;
-    
+        color: white;
+        border-color: white;
         
 }
 
-.table tr{
+.table tr {
     height: 50px;
+    border-color: white;
 }
 
 .table td, .table th{
     border: thin solid black;
     padding: 5px;
+    border-color: white;
 }
 
 
