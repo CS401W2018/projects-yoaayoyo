@@ -6,6 +6,11 @@ body{
 header{
     font-size: 30px;
     color: aliceblue;
+    background-color: gray;
+}
+
+.header2 h2{
+    font-size: 35px;
 }
 
 /* Links */
@@ -31,6 +36,7 @@ a:hover{
     align-items: center; /* 對齊到同一高度 */
     gap: 20px; /* 設定項目之間的間距 */
     border: solid thin white;
+    justify-content: space-between;
 }
 
 .logoandnav img {
@@ -47,4 +53,16 @@ a:hover{
 .logo img{
     width: 120px;
     height: 120px;
+}
+
+.current{
+    color: gray;
+}
+
+@media (max-width: 768px) {
+    .logoandnav{
+        flex-direction: column;
+    }
+
+
 }

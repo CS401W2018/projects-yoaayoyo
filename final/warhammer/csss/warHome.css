@@ -2,9 +2,11 @@ body{
     background-color: rgb(23, 21, 21);
 }
 
+
 header{
     font-size: 30px;
     color: aliceblue;
+    text-align: center;
 }
 
 
@@ -21,11 +23,6 @@ img{
     width: 100%;
 }
 
-
-
-
-
-
 /* Homepage, For the video background and the content on it */
 
 main{
@@ -33,7 +30,7 @@ main{
     height: 100vh;
     overflow: hidden;
     color: white;
-    text-shadow: 0px .25rem .5rem rgba(0,0,0, .3);
+    text-shadow: 0px .400px .8px rgba(0,0,0, .3);
 }
 
 
@@ -43,6 +40,7 @@ video{
     object-fit: cover;
     pointer-events: none;
 }
+
 
 main .container{
     position: absolute;
@@ -55,9 +53,11 @@ main .container{
     flex-direction: column;
 }
 
+
 main p{
     font-size: 30px;
 }
+
 
 main button{
     padding: 15px 30px;
@@ -65,6 +65,8 @@ main button{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+
 main button:hover {
     background-color: aquamarine;
 }
+

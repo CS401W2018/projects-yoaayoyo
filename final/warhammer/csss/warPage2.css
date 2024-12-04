@@ -6,8 +6,8 @@ header{
     font-size: 30px;
     background-color: rgb(59, 68, 75);
     color: aliceblue;
-    display: flex;
     gap: 20px;
+    text-align: center;
 }
 
 

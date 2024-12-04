@@ -1,22 +1,30 @@
-    document.getElementById('myForm').addEventListener('submit',function(event){
+document.getElementById('myForm').addEventListener('submit',function(event){
     event.preventDefault();
     alert("Form Submitted");
-    const first = document.getElementById('firstname').value; 
-    const last = document.getElementById('lastname').value;
+    const name = document.getElementById('name').value; 
+    const email = document.getElementById('email').value;
+    const factions = document.getElementById('Fac').value;
+    const phone = document.getElementById('phone').value;
 
-    if (!first){
-        alert("please type your name la")
-        return;
-    }
+    // if (!first){
+    //     alert("please type your name la")
+    //     return;
+    // }
 
-    if (!last){
-        alert("please type your name la")
-        return;
-    }
+    // if (!last){
+    //     alert("please type your name la")
+    //     return;
+    // }
+
+
+
+    
 
     const date = {
-        firstName: first,
-        lastName:  last
+        Name: name,
+        Email:  email,
+        Factions: factions,
+        Phone: phone
     }
 
     const xhr = new XMLHttpRequest();
