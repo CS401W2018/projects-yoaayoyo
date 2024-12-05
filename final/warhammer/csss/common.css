@@ -32,20 +32,20 @@ a:hover{
 }
 
 .logoandnav1 {
-display: flex; /* 水平排列 */
-align-items: center; /* 對齊到同一高度 */
+display: flex; 
+align-items: center; 
 gap: 20px; /* 設定項目之間的間距 */
 border: solid thin white;
 }
 
 .logoandnav {
-    display: flex; /* 水平排列 */
-    align-items: center; /* 對齊到同一高度 */
+    display: flex; 
+    align-items: center; 
     gap: 20px; /* 設定項目之間的間距 */
     border: solid thin white;
     justify-content: space-between;
-    max-width: 70%; /* 限制容器的最大寬度為螢幕的70% */
-    margin: 0 auto; /* 使容器在水平方向上居中 */
+    max-width: 70%; 
+    margin: 0 auto; 
 }
     
 
