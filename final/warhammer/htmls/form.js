@@ -6,21 +6,30 @@ document.getElementById('myForm').addEventListener('submit',function(event){
     const factions = document.getElementById('Fac').value;
     const phone = document.getElementById('phone').value;
 
-    // if (!first){
-    //     alert("please type your name la")
-    //     return;
-    // }
 
-    // if (!last){
-    //     alert("please type your name la")
-    //     return;
-    // }
+    if (!name){
+        alert("Type your name")
+        return;
+    }
 
+    if(!email){
+        alert("Type your email")
+        return;
+    }
 
+    if(!factions){
+        alert("Please choose")
+        return;
+    }
+
+    if(!phone){
+        alert("Please type your phone number")
+        return;
+    }
 
     
 
-    const date = {
+    const data = {
         Name: name,
         Email:  email,
         Factions: factions,
@@ -28,12 +37,14 @@ document.getElementById('myForm').addEventListener('submit',function(event){
     }
 
     const xhr = new XMLHttpRequest();
-    xhr.open("GET", "submit.json", ture );
-    xhr.setRequestHeader("Content-Type","application/json;charset=UTF-8")
+    xhr.open("GET", "submit.json", true);
+    xhr.setRequestHeader("Content-Type","application/json;=UTF-8")
     xhr.onreadystatechange = function (){
         if (xhr.readyState ===4 && xhr.status ===200) {
             const response = JSON.parse (xhr.responseText);
             document.getElementById("message").innerHTML = response.message;
+            alert(response.message);
+            document.getElementById("myForm").innerHTML = "";
         } else if (xhr.readyState ===4) {
             alert('Error submitting form.')
         }

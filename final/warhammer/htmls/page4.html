@@ -30,52 +30,53 @@
     <!-- navbar -->
     <nav class="logoandnav">
         <a href="page2.html">Lore and Factions</a>
-        <a href="page4.html" class="current">Gameplay and rules</a>
+        <a href="page4.html" class="current">Promotion</a>
         <a href="page3.html">Newest trailer</a>
     </nav>
         <br>
 
         <main>
 
-        <h1><p>Sign up for the a chance to get free fictions of Warhammer 40,000</p></h1>
+            <h1><p>Sign up for the a chance to get free fictions of Warhammer 40,000</p></h1>
 
+            <div id="message"></div>
 
-        <!-- form -->
-         <form action="" method="get" id="myForm" >
-        <fieldset>
-            <legend>Sign up</legend>
-            <div>
-                <label for="Name">Nmae</label>
-            <input type="text" name="Name" id="name" placeholder="Tell me your name!">
-            </div>
-            <div>
-                    <label for="email">Email:</label>
-                    <input type="email" name="email" id="email" placeholder="Email">
-            </div>
+            <!-- form -->
+            <form action="" method="post" id="myForm" >
+                <fieldset>
+                    <legend>Sign up</legend>
+                    <div>
+                        <label for="Name">Nmae</label>
+                    <input type="text" name="Name" id="name" placeholder="Tell me your name!">
+                    </div>
+                    <div>
+                            <label for="email">Email:</label>
+                            <input type="email" name="email" id="email" placeholder="Email">
+                    </div>
 
-            <div>
-                <label for="select">Slect Factions</label>
-                <select name="Factions" id="Fac">
-                <option value="b"></option>
-                <option value="T">Tyranids</option>
-                <option value="H">humanity</option>
-                <option value="O">Ork</option>
-                <option value="E">eldar</option>
-                </select> 
-            </div>
+                    <div>
+                        <label for="select">Slect Factions</label>
+                        <select name="Factions" id="Fac">
+                        <option value="b"></option>
+                        <option value="T">Tyranids</option>
+                        <option value="H">humanity</option>
+                        <option value="O">Ork</option>
+                        <option value="E">eldar</option>
+                        </select> 
+                    </div>
 
-            <div>
-                <label for="phone">Phone Number:</label>
-                <input type="tel" name="phone" id="phone" placeholder="Phone">
-            </div>
-        </fieldset>
+                    <div>
+                        <label for="phone">Phone Number:</label>
+                        <input type="tel" name="phone" id="phone" placeholder="Phone">
+                    </div>
 
-            </div>
-                <input type="submit" class="submit"> <br>
-            </div>
-        </fieldset>
-    </form>
+                    </div>
+                        <input type="submit" class="submit"> <br>
+                    </div>
+                </fieldset>
+            </form>
 
         </main>
+        <script src="form.js"></script>
 </body>
 </html>
