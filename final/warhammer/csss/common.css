@@ -44,7 +44,11 @@ border: solid thin white;
     gap: 20px; /* 設定項目之間的間距 */
     border: solid thin white;
     justify-content: space-between;
+    max-width: 70%; /* 限制容器的最大寬度為螢幕的70% */
+    margin: 0 auto; /* 使容器在水平方向上居中 */
 }
+    
+
 
 .logoandnav img {
     width: 100px; /* 調整圖片大小（可根據需求修改） */
