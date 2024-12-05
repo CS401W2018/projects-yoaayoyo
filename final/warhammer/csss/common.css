@@ -31,6 +31,13 @@ a:hover{
     padding: 0px;
 }
 
+.logoandnav1 {
+display: flex; /* 水平排列 */
+align-items: center; /* 對齊到同一高度 */
+gap: 20px; /* 設定項目之間的間距 */
+border: solid thin white;
+}
+
 .logoandnav {
     display: flex; /* 水平排列 */
     align-items: center; /* 對齊到同一高度 */
@@ -61,6 +68,10 @@ a:hover{
 
 @media (max-width: 768px) {
     .logoandnav{
+        flex-direction: column;
+    }
+
+    .logoandnav1{
         flex-direction: column;
     }
 
